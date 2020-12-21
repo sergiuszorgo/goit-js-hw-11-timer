@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  /* ГРАДИЕНТ */
+  height: 100vh;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+  filter: drop-shadow(0 0 10px white);
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+  color: wheat;
+}
+
+.timer {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 0 20%;
+  color: wheat;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10% auto;
+}
+
+.value {
+  font-size: 50px;
+}

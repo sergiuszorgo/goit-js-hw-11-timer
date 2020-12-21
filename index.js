@@ -38,3 +38,5 @@ const countToNewYear = new CountdownTimer({
 });
 
 countToNewYear.countDown();
+
+// СНЕГ
